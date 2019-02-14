@@ -4,10 +4,15 @@ The latest United States presidential election among candidates Donald Trump and
 
 # Data Description:
 •	individual_data
-o	contain Individual-level data on each person’s age, race, gender, voting history, party registration, and education. Each person has a unique person_id and also a household ID (hh_id) that indicates the household they belong to.
+
+contain Individual-level data on each person’s age, race, gender, voting history, party registration, and education. Each person has a unique person_id and also a household ID (hh_id) that indicates the household they belong to.
+
 •	household_data
-o	contains household-level demographics where each household has an income, indicator for whether the house is in an urban or rural area, whether the home is owned by the household and whether the household is in a census tract that is in the top, bottom, or middle third of household income
+
+contains household-level demographics where each household has an income, indicator for whether the house is in an urban or rural area, whether the home is owned by the household and whether the household is in a census tract that is in the top, bottom, or middle third of household income
+
 •	registration_status
+
 contains whether the person is registered as a Democrat (is_registered_democrat). Note: 1 = Yes, 0 = Unregistered or in another party, Missing = unknown
 
 
